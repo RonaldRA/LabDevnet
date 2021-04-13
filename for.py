@@ -15,7 +15,7 @@ Dic[2]='dos'
 
 print(Dic)
 
-print('programa modificado Devnet Master')
+print('programa modificado Master branch')
 
 #Calcular prima cuadrado
 

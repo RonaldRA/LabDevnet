@@ -9,5 +9,12 @@ if [3,4] in lista:
 else:
     print('No se ubica')
 
-print('programa modificado version1 parte1')
+Dic={}
+Dic[1]='uno'
+Dic[2]='dos'
+
+print(Dic)
+
+print('programa modificado Devnet Master')
+
 

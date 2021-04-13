@@ -15,13 +15,13 @@ Dic[2]='dos'
 
 print(Dic)
 
-print('programa modificado Master branch')
+#formato de table
+Mark = '+---------------+----------+----------+'
+Row = '\n| Ciudad        | Latitud  | Longitud |\n'
+print(Mark+Row+Mark)
+for i in DB.keys():
+    print("| {0:<13} | {1:<8.4f} | {2:<8.4f} |".format(i,DB[i][0],DB[i][1]))
+print(Mark,'\n\n\n')
 
-#Calcular prima cuadrado
-
-n=input("Ingrese ancho: ")
-m=input('Ingrese altura: ')
-
-print('El area cuadrado es:',n*m)
-
+print('programa modificado Devent branch')
 

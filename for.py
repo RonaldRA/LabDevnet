@@ -9,5 +9,13 @@ if [3,4] in lista:
 else:
     print('No se ubica')
 
-print('programa modificado version1 parte1')
+#formato de table
+Mark = '+---------------+----------+----------+'
+Row = '\n| Ciudad        | Latitud  | Longitud |\n'
+print(Mark+Row+Mark)
+for i in DB.keys():
+    print("| {0:<13} | {1:<8.4f} | {2:<8.4f} |".format(i,DB[i][0],DB[i][1]))
+print(Mark,'\n\n\n')
+
+print('programa modificado Devent branch')
 

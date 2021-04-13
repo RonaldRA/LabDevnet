@@ -1,5 +1,0 @@
-name1=input('Cual es tu nombre: ')
-name2=input('Cual es tu apellido: ')
-loc=input('Cual es tu localizacion: ')
-age=input('Cual es tu edad: ')
-print('Hola '+name1,name2+'! Tu ubicacion es '+loc+' y tienes ' +age+' anos.')

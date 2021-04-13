@@ -17,4 +17,11 @@ print(Dic)
 
 print('programa modificado Devnet Master')
 
+#Calcular prima cuadrado
+
+n=input("Ingrese ancho: ")
+m=input('Ingrese altura: ')
+
+print('El area cuadrado es:',n*m)
+
 

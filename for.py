@@ -1,8 +1,5 @@
-lista=[i for i in range(5)]
-if [3,4] in lista:
-    print('Mis numeros')
-else:
-    print('No se ubica')
+print("Programa de prueba")
+print("\t\tTABLA")
 
 Dic={}
 Dic['Andres']=(1,2)
@@ -15,7 +12,7 @@ Row = '\n| Nombre        | Latitud  | Longitud |\n'
 print(Mark+Row+Mark)
 for i in Dic.keys():
     print("| {0:<13} | {1:<8.4f} | {2:<8.4f} |".format(i,Dic[i][0],Dic[i][1]))
-print(Mark,'\n\n\n')
-
-print('programa modificado Devent branch')
+print(Mark)
+print('\nby master branch')
+print('\n\n\t### Fin de Programa ###')
 
